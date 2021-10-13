@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: 'Chistoso';
-  src: url('Chistoso-Regular.eot');
+  src: url('fonts/Chistoso-Regular.eot');
   src: url('Chistoso-Regular.eot?#iefix') format('embedded-opentype'),
       url('Chistoso-Regular.woff2') format('woff2'),
       url('Chistoso-Regular.woff') format('woff'),
@@ -30,8 +30,8 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-
 }
+*
 body {
   font-size: 15pt;
   background-color: rgb(151, 150, 150);
@@ -40,23 +40,20 @@ body {
   Padding-left: 20%;
   padding-bottom: 8%;
 
-}
 
-.main {
-  font-size: 14pt;
 }
 .bold {
   font-weight: 700;
-  font-size: 20 px;
+  font-size: 20px;
   color: green;
   text-transform: uppercase;
 
 }
   header {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lobster', cursive;
     width: 100%;
     background-color: #d5e6e5;
-    font-size: 18pt;
+    font-size: 1px;
     padding: 10px 60px 10px;
     padding-top: 5%;
     padding-bottom: 10%;
@@ -82,7 +79,7 @@ body {
   
 }
 .header-right {
-  font-size: 14pt;
+  font-size: 20pt;
   display: grid;
   justify-content: center;
 
@@ -138,10 +135,15 @@ body {
   flex-direction: column;
 
 }
-header {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 100%;
+.header-container {
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
   height: 500%;
+  position: absolute;
+}
+header {
+  background-color: #d5e6e5;
+  height: 120px;
 
 }
 .image {
@@ -159,7 +161,7 @@ header {
 
 }
 .header-right {
-font-size: 10pt;
+font-size: 11pt;
 display: column;
 justify-content: right;
 
@@ -168,15 +170,18 @@ justify-content: right;
 }
 .a {
   background-color: #f3ded3;
+  font-size: 11pt;
 }
 .b {
   background-color: #ebe8e3;
   height: 400%;
+  font-size: 11pt;
 
 }
 
 .bottom-container {
-  font-size: 15pt;
+  font-size: 13pt;
+  font-weight: bold;
 
 }
 }
